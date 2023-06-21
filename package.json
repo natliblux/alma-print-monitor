@@ -1,0 +1,17 @@
+{
+  "name": "alma-print-monitor",
+  "version": "1.0.0",
+  "description": "Monitor ALMA printout queue",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean-Marie Thewes",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch-commonjs": "^3.2.4",
+    "nodemailer": "^6.9.1",
+    "winston": "^3.8.2"
+  }
+}

@@ -1,0 +1,5 @@
+/node_modules
+/config/*.json
+dev.js
+/data/*.json
+/log/*.log

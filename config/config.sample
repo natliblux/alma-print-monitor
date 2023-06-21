@@ -1,0 +1,33 @@
+{
+    "apiPath":"https://api-eu.hosted.exlibrisgroup.com/almaws/v1",
+    "apiKey":"",
+    "proxy":"http://proxy.something:8080",
+    "logTimestampFormat":"YYYY-MM-DDTHH:mm:ss",
+    "maxLogAgeInDays":30,
+    "logConfig":[
+        {
+            "level":"info",
+            "type":"console",
+            "format":"text"
+        },
+        {
+            "level":"info",
+            "type":"file",
+            "format":"json",
+            "rotate":true,
+            "folder":"log",
+            "extension":".log"
+        }
+    ],
+    "mailEnabled" : true,
+	"mailServer" : "mailserver.FQDN",
+	"mailPort" : 25,
+	"mailSender": "sender@mail",
+	"mailRecipient": "recipient@mail",
+    "mailSubject":"ALMA Print Monitor ALERT",
+    "mailText":"Some letters are stuck in queue, check Print Server",
+    "almaPrinterProfiles":[
+        {"almaPrinter":""},
+        {"almaPrinter":""}
+    ]
+}
